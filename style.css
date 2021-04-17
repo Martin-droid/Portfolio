@@ -22,7 +22,9 @@ html, body{
     font-family: 'Roboto Mono', monospace;
     
 }
-
+body *{
+    transition: 0.3s;
+}
 h1, h2, h3, h4, h5, h6{
     color: var(--mainText);
     font-family: 'Russo One', sans-serif;
@@ -418,7 +420,7 @@ display:grid;
 }
 @media screen and (max-width:800px){
 #skills{
- margin-left: 100px;
+ margin-left: 130px;
     
     }
 }
@@ -427,11 +429,22 @@ display:grid;
     @media screen and (max-width:800px){
         .thumbnail{
         
-  margin:3vh;
+  padding:10px;
+  margin-left: 20px;;
+  
+
+        }
+
+            
+    @media screen and (max-width:800px){
+        .right-column{
+        
+  margin-left:50px;
 
         }
 
 
 
 }
+    }
 
