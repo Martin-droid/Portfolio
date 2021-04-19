@@ -232,9 +232,10 @@ background-color:black;
     grid-area:right-column;
     display:grid;
   align-content: center;
-
   padding-top:50px;
-  padding-bottom:50px;
+  padding-bottom: 50px;
+
+ 
 }
 
 
@@ -246,10 +247,10 @@ background-color:black;
     padding-top:30px;
 }
 #preview{
-    width: 300px;
+    width: 280px;
     border:1.5px solid #17a2b8;
     background-color: var(--previewBg);
-    padding:15px;
+    padding:8px;
     position: relative;
 
 }
@@ -288,11 +289,15 @@ background-color:black;
 
 #skills{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     background-color: var(--previewShadow);
-    width: 50%;
+    width: 100%;
 
-    margin-left: 30vh;
+   
+
+
+
+   
 
 
 }
@@ -328,7 +333,7 @@ background-color:black;
 
 .thumbnail{
     display:block;
-  width:47.5vh;
+  width:300px;
   height:180px;
   gap:20px;
   object-fit:cover;
@@ -394,7 +399,7 @@ background-color:black;
 }
 @media screen and (max-width:1200px){
     .main-container{
-        width:95%;
+        width:100%;
       
     }
 }
@@ -409,6 +414,10 @@ background-color:black;
     'right-column'
     ;
     }
+
+    .right-column{
+        justify-content: center;
+    }
     
 }
 @media screen and (max-width:800px){
@@ -418,33 +427,8 @@ display:grid;
     
     }
 }
-@media screen and (max-width:800px){
-#skills{
- margin-left: 130px;
-    
-    }
-}
-  
-    
-    @media screen and (max-width:800px){
-        .thumbnail{
-        
-  padding:10px;
-  margin-left: 20px;;
+
   
 
-        }
-
-            
-    @media screen and (max-width:800px){
-        .right-column{
-        
-  margin-left:50px;
-
-        }
-
-
-
-}
-    }
+    
 
